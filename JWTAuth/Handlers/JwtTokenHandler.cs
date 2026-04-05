@@ -35,7 +35,7 @@ namespace JWTAuth.Handlers
             var claimsIdentity = new ClaimsIdentity(new[]
             {
                 new Claim(JwtRegisteredClaimNames.Name, _authRequest.UserName),
-                new Claim(ClaimTypes.Role, useraccount.Role)
+                new Claim("Role", useraccount.Role)
             });
 
             var signingCredentials = new SigningCredentials(

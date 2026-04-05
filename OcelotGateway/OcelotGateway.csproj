@@ -11,6 +11,10 @@
     <PackageReference Include="Ocelot.Cache.CacheManager" Version="24.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JWTAuth\JWTAuth.csproj" />
+  </ItemGroup>
+
 	<ItemGroup>
 		<None Update="ocelot.json">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

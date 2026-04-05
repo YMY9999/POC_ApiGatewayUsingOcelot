@@ -13,8 +13,8 @@ app.MapGet("/api/products", (HttpRequest request) => new[]
 {
     new { id= 1, name = $"Product 1(served by {request.Host})" },
     new { id= 2, name = "Product 2"}
-}).RequireAuthorization(new AuthorizeAttribute { Roles = "User" });
-
+});
+//.RequireAuthorization(new AuthorizeAttribute { Roles = "User" }
 app.UseAuthentication();
 app.UseAuthorization();
 
