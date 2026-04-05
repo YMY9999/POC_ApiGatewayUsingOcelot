@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="AuthWebApi/AuthWebApi.csproj" Id="ac98e18a-f712-44c5-b032-df3ee5798b5e" />
+  <Project Path="CatalogApi/CatalogApi.csproj" />
+  <Project Path="InventoryApi/InventoryApi.csproj" />
+  <Project Path="JWTAuth/JWTAuth.csproj" Id="5a38eaa9-0af4-4a1c-a78c-0937dbf5c74e" />
+  <Project Path="OcelotGateway/OcelotGateway.csproj" />
+</Solution>

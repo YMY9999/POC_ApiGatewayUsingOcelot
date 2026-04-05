@@ -1,0 +1,2 @@
+dotnet run --no-launch-profile --urls="http://localhost:5001"
+dotnet run --no-launch-profile --urls="http://localhost:5003"
